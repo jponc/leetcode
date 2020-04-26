@@ -25,6 +25,19 @@ iterate all characters from roman string
 Create an index pointer, then iterate and check if they have the same character using a set
 ```
 
+## [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) [easy]
+```
+s = new stack
+for char in string:
+  if opening:
+    stack.push(closing complementary parentheses against char)
+  else:
+    if stack.pop() != char:
+      return false
+
+return stack.isEmpty()
+```
+
 # 2020-04-25
 ## [Two Sum](https://leetcode.com/problems/two-sum/) [easy]
 ```
