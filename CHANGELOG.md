@@ -24,3 +24,11 @@ iterate until they don't overlap:
 return true
 ```
 
+## [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) [easy]
+```
+Set possible characters to hashmap
+initialise output to 0
+
+iterate all characters from roman string
+  check value against hashmap and add it to accumulator
+```
