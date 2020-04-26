@@ -1,3 +1,25 @@
+# 2020-04-26
+## [Palindrome Number](https://leetcode.com/problems/palindrome-number/) [easy]
+```
+str = string value of number
+i = 0
+j = len(str) - 1
+
+iterate until they don't overlap:
+  if str[i] != str[j], return false
+  i++; j--
+return true
+```
+
+## [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) [easy]
+```
+Set possible characters to hashmap
+initialise output to 0
+
+iterate all characters from roman string
+  check value against hashmap and add it to accumulator
+```
+
 # 2020-04-25
 ## [Two Sum](https://leetcode.com/problems/two-sum/) [easy]
 ```
@@ -10,25 +32,4 @@ Else: Return [complementaryIdx, currentIdx]
 ```
 ```
 
-# 2020-04-26
-## [Palindrome Number](https://leetcode.com/problems/palindrome-number/) [easy]
-```
-str = string value of number
-i = 0
-j = len(str) - 1
 
-iterate until they don't overlap:
-  if str[i] != str[j], return false
-  i++; j--
-  
-return true
-```
-
-## [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) [easy]
-```
-Set possible characters to hashmap
-initialise output to 0
-
-iterate all characters from roman string
-  check value against hashmap and add it to accumulator
-```
