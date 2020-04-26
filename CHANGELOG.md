@@ -20,6 +20,11 @@ iterate all characters from roman string
   check value against hashmap and add it to accumulator
 ```
 
+## [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) [easy]
+```
+Create an index pointer, then iterate and check if they have the same character using a set
+```
+
 # 2020-04-25
 ## [Two Sum](https://leetcode.com/problems/two-sum/) [easy]
 ```
