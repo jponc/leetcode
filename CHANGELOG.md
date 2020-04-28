@@ -1,6 +1,11 @@
 # 2020-04-28
 ## [Merge Two Sorted List](https://leetcode.com/problems/merge-two-sorted-lists/submissions/) [easy]
-
+## [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) [easy]
+```
+Identify an index pointer where you placed the last unique element.
+Then iterate the array as usual and compare current against value in index pointer.
+If they're different, increment index pointer, and set value to current
+```
 
 # 2020-04-26
 ## [Palindrome Number](https://leetcode.com/problems/palindrome-number/) [easy]
