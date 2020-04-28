@@ -1,10 +1,24 @@
 # 2020-04-28
 ## [Merge Two Sorted List](https://leetcode.com/problems/merge-two-sorted-lists/submissions/) [easy]
+
 ## [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) [easy]
 ```
 Identify an index pointer where you placed the last unique element.
 Then iterate the array as usual and compare current against value in index pointer.
 If they're different, increment index pointer, and set value to current
+```
+
+## [Remove Elements](https://leetcode.com/problems/remove-element) [easy]
+
+## [Implement strStr](https://leetcode.com/problems/implement-strstr/) [easy]
+```
+Faster than 100% of Go solution, and 2.3MB memory less than 100% of Go solutions :p
+
+I initiall tried to use dynamic programming to achieve O(n+m) time complexity, but Leetcode
+is throwing an out of memory error because it will try to allocate N*M size ints
+
+So I ended up having a O(n*m) soluttion, but better space complexity since I'm only comparing the
+values in place
 ```
 
 # 2020-04-26
