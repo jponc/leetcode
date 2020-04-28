@@ -1,3 +1,7 @@
+# 2020-04-28
+## [Merge Two Sorted List](https://leetcode.com/problems/merge-two-sorted-lists/submissions/) [easy]
+
+
 # 2020-04-26
 ## [Palindrome Number](https://leetcode.com/problems/palindrome-number/) [easy]
 ```
