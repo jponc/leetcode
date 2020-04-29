@@ -14,11 +14,8 @@ If they're different, increment index pointer, and set value to current
 ```
 Faster than 100% of Go solution, and 2.3MB memory less than 100% of Go solutions :p
 
-I initiall tried to use dynamic programming to achieve O(n+m) time complexity, but Leetcode
-is throwing an out of memory error because it will try to allocate N*M size ints
-
-So I ended up having a O(n*m) soluttion, but better space complexity since I'm only comparing the
-values in place
+1. Created a dynamic programming solution O(m*n), but takes so much memory
+2. In plaece comparison also, O(m*n)
 ```
 
 # 2020-04-26

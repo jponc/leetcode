@@ -1,7 +1,7 @@
 package leetcode
 
 // dynamic programming implementation
-// O(m+n); where m = haystack length, n = needle length
+// O(m*n); where m = haystack length, n = needle length
 // Unfortunately I can't run this in leetcode because memory allocation isn't enough :/
 func strStrDynamicProgramming(haystack string, needle string) int {
 	needle_length := len(needle)
