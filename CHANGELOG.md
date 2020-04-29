@@ -5,6 +5,11 @@ O(n)
 Linear scan, find the first number > target, return index - 1
 ```
 
+## [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) [medium]
+```
+iterate both linkedlist, add them, store (n + m) % 10, carry over /10
+```
+
 # 2020-04-28
 ## [Merge Two Sorted List](https://leetcode.com/problems/merge-two-sorted-lists/submissions/) [easy]
 
