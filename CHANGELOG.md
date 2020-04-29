@@ -7,7 +7,14 @@ Linear scan, find the first number > target, return index - 1
 
 ## [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) [medium]
 ```
+O(n+m)
 iterate both linkedlist, add them, store (n + m) % 10, carry over /10
+```
+
+## [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) [medium]
+```
+O(n)
+Have a sliding window, and check and compare the length of hash set against max on each iteration
 ```
 
 # 2020-04-28
