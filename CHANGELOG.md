@@ -1,3 +1,10 @@
+# 2020-04-29
+## [Search Insert Position](https://leetcode.com/problems/search-insert-position) [easy]
+```
+O(n)
+Linear scan, find the first number > target, return index - 1
+```
+
 # 2020-04-28
 ## [Merge Two Sorted List](https://leetcode.com/problems/merge-two-sorted-lists/submissions/) [easy]
 
